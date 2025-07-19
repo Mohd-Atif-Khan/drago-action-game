@@ -43,14 +43,35 @@ body{
     font-family: sans-serif;
     visibility: hidden;
 }
-#scoreCont{
+
+#scoreCont {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+#scoreCont:hover {
+    background: rgba(255, 255, 255, 0.9);
+    color: #000;
+    transform: scale(1.05);
+}
+/* #scoreCont{
     position: relative;
     top: 63px;
     border: 2px solid black;
     padding: 10px;
     font-family: sans-serif;
     width: 112px ;
-}
+} */
 .animateDino{
     animation: dino 0.6s linear;
 }

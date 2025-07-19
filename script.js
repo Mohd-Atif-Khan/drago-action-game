@@ -78,5 +78,5 @@ document.onkeydown = function(e) {
  }, 10);
 
  function updateScore(score){
-    scoreCont.innerHTML = "your score" + score
+    scoreCont.innerHTML = "your score : " + score
  }
